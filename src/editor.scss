@@ -1,0 +1,26 @@
+figure[data-media-credit]:not([data-media-credit=""]) {
+	display: flex;
+	flex-direction: column;
+
+	figcaption {
+		margin-bottom: 0.25em;
+	}
+
+	&::before {
+		order: 99;
+		display: block;
+		color: var(--caption-color, var(--color-body));
+		font-size: var(--caption-font-size, var(--font-size-xs));
+		text-align: var(--caption-text-align, center);
+		font-style: italic;
+		content: "Credit: " attr(data-media-credit);
+	}
+
+	&:has(figcaption)::before {
+		margin-top: 0;
+	}
+
+	&:not(:has(figcaption))::before {
+		margin-top: .5em;
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "mai-media-credit",
+	"version": "0.1.0",
+	"description": "Adds a media credit field to the Image block to store attribution text as attachment metadata.",
+	"author": "BizBudding",
+	"license": "GPL-2.0-or-later",
+	"main": "build/editor.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.22.0"
+	}
+}
