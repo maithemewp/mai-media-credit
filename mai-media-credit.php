@@ -24,6 +24,7 @@ require_once __DIR__ . '/inc/ajax.php';
 require_once __DIR__ . '/inc/meta.php';
 require_once __DIR__ . '/inc/editor.php';
 require_once __DIR__ . '/inc/frontend.php';
+require_once __DIR__ . '/inc/admin.php';
 
 add_action( 'plugins_loaded', __NAMESPACE__ . '\updater' );
 /**
