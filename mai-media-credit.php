@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Mai Media Credit
  * Description:       Adds a media credit field to the Image block to store the attribution text as attachment metadata.
- * Version:           0.2.1
+ * Version:           0.2.2
  * Requires at least: 6.7
  * Requires PHP:      8.2
  * Author:            BizBudding
