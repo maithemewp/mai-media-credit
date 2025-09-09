@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => '__root__',
+        'name' => 'mai/media-credit',
         'pretty_version' => 'dev-develop',
         'version' => 'dev-develop',
-        'reference' => 'bb6bee4fcd87d6a1d9a7a1d9bfdca6c67347807b',
+        'reference' => 'a6efd2ed8acac444d064f00ada9831296df124a7',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
+        'mai/media-credit' => array(
             'pretty_version' => 'dev-develop',
             'version' => 'dev-develop',
-            'reference' => 'bb6bee4fcd87d6a1d9a7a1d9bfdca6c67347807b',
+            'reference' => 'a6efd2ed8acac444d064f00ada9831296df124a7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
